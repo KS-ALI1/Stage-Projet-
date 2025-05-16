@@ -18,7 +18,7 @@ The script facilitates the installation of the following SOC components:
 
    
 
-   <img width="918" alt="elasticsearch" src="https://github.com/KS-ALI1/Stage-Projet-/blob/main/Capture3.PNG">
+   <img width="918" alt="https://github.com/KS-ALI1/Stage-Projet-/blob/main/Capture%203.PNG">
 
 
 3. **NIDS (Network-based Intrusion Detection System):** Suricata, a high-performance NIDS, is configured to help protect your network from intrusions and suspicious activities.
