@@ -14,7 +14,7 @@ This script automates the setup of a comprehensive security monitoring environme
 The script facilitates the installation of the following SOC components:
 
 1. **SIEM (Security Information and Event Management):** This component combines Elasticsearch, Kibana, and Filebeat to provide a powerful platform for monitoring and analyzing security events in your environment. The SIEM setup includes Elasticsearch, Kibana and Filebeat version 7.17.13 as it is the compatible version to integrate with Wazuh manager version 4.5
-   <img width="443" alt="siem_setup_1" src="https://github.com/KS-ALI1/Stage-Projet-/blob/main/Capture%203.PNG">
+   <img width="443" alt="siem_setup_1" src="https://github.com/KS-ALI1/Stage-Projet-/blob/main/Capture%2044.PNG">
 
    
 
