@@ -18,7 +18,6 @@ The script facilitates the installation of the following SOC components:
 
    
 
-   <img width="918" alt="https://github.com/KS-ALI1/Stage-Projet-/blob/main/Capture%203.PNG">
 
 
 3. **NIDS (Network-based Intrusion Detection System):** Suricata, a high-performance NIDS, is configured to help protect your network from intrusions and suspicious activities.
@@ -52,11 +51,10 @@ If your system doesn't meet these requirements, the script will issue a warning 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/samiul008ghub/soc_setup/
-
+   git clone https://github.com/KS-ALI1/Stage-Projet-
 2. Navigate to the repository's directory:
    ```bash
-   cd soc_setup
+   cd siem_setup.sh
 3. Make the setup_script.sh executable:
    ```bash
    chmod +x setup_script.sh
