@@ -55,7 +55,7 @@ If your system doesn't meet these requirements, the script will issue a warning 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/KS-ALI1/Stage-Projet-
+   git clone https://github.com/KS-ALI1/Stage-Projet-.git
 
 2. Navigate to the repository's directory:
    ```bash
