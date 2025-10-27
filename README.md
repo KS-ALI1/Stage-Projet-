@@ -3,19 +3,22 @@
 ## Overview
 
 
-<img width="615" alt="main_pic" src="https://github.com/KS-ALI1/Stage-Projet-/blob/main/imade%201.PNG">
+   <img width="615" alt="main_pic" src="https://github.com/KS-ALI1/Stage-Projet-/blob/main/imade%201.PNG">
 
 This script automates the setup of a comprehensive security monitoring environment, including a Security Information and Event Management (SIEM) system,Network-based Intrusion Detection System (NIDS) and Host-based Intrusion Detection System (HIDS) on a single machine. It streamlines the installation process, making it accessible to users with different levels of technical expertise.
 
+
 **Note:** This script is intended to install all the components on a single machine, meaning the same box will have the SIEM, NIDS, and HIDS core components.
 
+
 ## Components
+
 
 The script facilitates the installation of the following SOC components:
 
 1. **SIEM (Security Information and Event Management):** This component combines Elasticsearch, Kibana, and Filebeat to provide a powerful platform for monitoring and analyzing security events in your environment. The SIEM setup includes Elasticsearch, Kibana and Filebeat version 7.17.13 as it is the compatible version to integrate with Wazuh manager version 4.5
    
-   <img width="443" alt="siem_setup_1" src="https://github.com/KS-ALI1/Stage-Projet-/blob/main/Capture%2044.PNG">
+      <img width="443" alt="siem_setup_1" src="https://github.com/KS-ALI1/Stage-Projet-/blob/main/Capture%2044.PNG">
 
 
    
@@ -53,17 +56,22 @@ If your system doesn't meet these requirements, the script will issue a warning 
 
    ```bash
    git clone https://github.com/KS-ALI1/Stage-Projet-
+
 2. Navigate to the repository's directory:
    ```bash
    cd siem_setup.sh
+
 3. Make the setup_script.sh executable:
    ```bash
    chmod +x setup_script.sh
+
 4. Execute the setup_script.sh:
    ```bash
    ./setup_script.sh
+
 5. Follow the on-screen prompts to choose which components you want to install and continue with the setup.
    Post-Installation Steps
+
 6. After successfully running the script and completing the NIDS (Suricata) setup, consider the following post-installation steps:
 
 ## Verify NIDS Logs: 
